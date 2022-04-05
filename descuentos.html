@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de descuentos</title>
+    <link rel="stylesheet" href="descuentos.css">
+</head>
+<body>
+    <header id="cabecera">
+        <h1> Calculadora de descuentos </h1>
+    </header>
+    <section>
+        <form id="container"> 
+            <label for="inputPrice">Precio: </label>
+            <input id="inputPrice" type="number">
+            <label for="inputDiscount">Descuento: </label>
+            <input id="inputDiscount" type="number">
+            
+            <button type="button" onclick="onclickButtonPriceDiscount()">Calcular</button>
+            <div id="footer">
+                <p>Precio final: </p>
+                <p id="ResultP"></p>
+            </div>
+        </form>
+    </section>
+    <script src="./descuentos.js"></script>
+</body>
+</html>

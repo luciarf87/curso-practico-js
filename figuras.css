@@ -1,0 +1,200 @@
+body
+{
+    
+    color: #333;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#cabecera
+{
+    background: #F0FFF0;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#container
+{
+    display:flex; 
+    padding: 0;
+    margin: 0 auto;
+}
+
+#cuadrado {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #9370DB;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #D8BFD8;
+    justify-content: center;
+}
+#cuadrado .title {
+    justify-content: center;
+    padding: 24px;
+    background-color: #9370DB;
+    color: white;
+   
+}
+#cuadrado h2 {
+   
+    font-size: large;
+}
+#cuadrado form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#cuadrado label {
+    color: dimgrey;
+      
+}
+#cuadrado .card {
+    display:flex;
+    align-items: center;
+    padding: 12px;
+}
+#cuadrado input {
+    background-color: gainsboro;
+    border: none;
+    border-radius: 8px;
+    height: 20px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+    width: 50px;
+    margin-left: 6px;
+}
+#cuadrado button {
+    background-color: #DDA0DD;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#triangulo {
+    width: 500px;
+    height: 400px;
+    border: 1px solid #FF4500;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #FFEFD5;
+    justify-content: center;
+}
+#triangulo .title {
+    justify-content: center;
+    padding: 24px;
+    background-color: #FF4500;
+    color: white;
+   
+}
+#triangulo h2 {
+   font-size: large;
+}
+#triangulo form {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+#triangulo label {
+    color: dimgrey;
+      
+}
+#triangulo .card {
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 12px;
+}
+#triangulo input {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    height: 20px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+    width: 50px;
+    margin-left: 6px;
+}
+#triangulo button {
+    background-color: #FFA07A;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin: 8px;
+}
+
+#circulo {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #00FF7F;
+    margin: 12px;
+    border-radius: 8px;
+    background-color: #F0FFFF;
+    justify-content: center;
+}
+#circulo .title {
+    justify-content: center;
+    padding: 24px;
+    background-color: #00FF7F;
+    color: white;
+   
+}
+#circulo h2 {
+   
+    font-size: large;
+}
+#circulo form {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#circulo label {
+    color: dimgrey;
+      
+}
+#circulo .card {
+    display:flex;
+    align-items: center;
+    padding: 12px;
+}
+#circulo input {
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    height: 20px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-bottom: 12px;
+    width: 50px;
+    margin-left: 6px;
+}
+#circulo button {
+    background-color: #98FB98;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    margin: 8px;
+}
